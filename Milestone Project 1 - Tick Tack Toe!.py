@@ -183,6 +183,8 @@ def player_move(player_1,player_2,current_player,legal_moves):
 
 def play_again():
 
+    global choice
+    
     choice = 'Wrong'
     yes_no = ['Y','N']
     print_board()
